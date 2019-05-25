@@ -11,9 +11,9 @@ posts = db.posts
 
 def addData(article_title, content, genre):
     post = {
-        "Title: ":article_title,
-        "Content: ":content,
-        "Genre: ":genre
+        "title":article_title,
+        "content":content,
+        "genre":genre
     }
 
     logging.info(post)
