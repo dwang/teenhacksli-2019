@@ -18,10 +18,12 @@ for article in cnn.articles:
         article.parse()
         
         article_title = article.html.split('<h2 style="margin-top:0px;">')[1].split('</h2>')[0]
+        article_text = article.html.split('</div><div><p>')[1].split('</p></div></div>')[0]
+
         file_name = pattern.sub('', article_title.replace(" ", "-")).lower() + ".html"
-        
+
         with open("articles/" + file_name, 'w') as out:
-            out.write(header + "<h1>" + article_title + "</h1> <br> <p class='text'>" + article.text + "</p>")
+            out.write(header + "<h1>" + article_title + "</h1> <br> <p class='text'>" + article_text + "</p>")
 
         index.write("<a href='articles/{}'>".format(file_name) + article_title + "</a><br><br>")
 
