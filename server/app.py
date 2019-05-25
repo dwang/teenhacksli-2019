@@ -18,7 +18,6 @@ def index():
         file.write(cnn.articles[count].text)
         file.close()
         count += 1
-    
     return article.text
 
 if __name__ == "__main__":
