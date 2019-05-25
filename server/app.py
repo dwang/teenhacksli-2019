@@ -10,7 +10,8 @@ def index():
     article = cnn.articles[0]
     article.download()
     article.parse()
+    article.nlp()
     return article.text
 
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=True)
