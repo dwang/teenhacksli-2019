@@ -20,7 +20,7 @@ for article in cnn.articles:
         file_name = pattern.sub('', article_title.replace(" ", "-")).lower() + ".html"
         
         with open("articles/" + file_name, 'w') as out:
-            out.write(header + "<h1>" + article_title + "</h1> <br> <p class='text'>" + article.text.replace(". ", ". <br>") + "</p>")
+            out.write(header + "<h1>" + article_title + "</h1> <br> <p class='text'>" + article.text + "</p>")
 
         index.write("<a href='articles/{}'>".format(file_name) + article_title + "</a><br><br>")
 
