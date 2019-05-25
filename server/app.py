@@ -18,7 +18,8 @@ def index():
         file.write(cnn.articles[count].text)
         file.close()
         count += 1
-    return article.text
+
+    return "200"
 
 if __name__ == "__main__":
     app.run(debug=True)
