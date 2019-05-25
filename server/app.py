@@ -1,9 +1,10 @@
-import newspaper, basicWeather
+import newspaper, basicWeather, content_classification
 import re
 import string
 
 cnn = newspaper.build("https://lite.cnn.io", memoize_articles=False)
 pattern = re.compile(r"[^a-zA-Z0-9-]")
+allowed_categories = ['Jobs & Education', 'Law & Government', 'News', 'Business & Industrial', 'People & Society', 'Finance', 'Health']
 count = 0
 
 index = open("index.html", "w")
@@ -19,6 +20,10 @@ for article in cnn.articles:
         
         article_title = article.html.split('<h2 style="margin-top:0px;">')[1].split('</h2>')[0]
         article_text = article.html.split('</div><div><p>')[1].split('</p></div></div>')[0]
+
+        category = list(content_classification.classify(article_text).keys())[0].split("/")[1]
+        if category not in allowed_categories:
+            continue
 
         file_name = pattern.sub('', article_title.replace(" ", "-")).lower() + ".html"
 

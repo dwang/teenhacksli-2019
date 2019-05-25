@@ -1,5 +1,6 @@
 articles/*
 app.html
+cloud_credentials.json
 index.html
 # Byte-compiled / optimized / DLL files
 __pycache__/
