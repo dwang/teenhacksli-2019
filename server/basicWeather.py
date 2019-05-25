@@ -24,7 +24,7 @@ def getWeather():
         current_humidiy = y["humidity"]
         z = x["weather"]
         weather_description = z[0]["description"]
-        return "City = " + city_name + "</br>"+  " Temperature = " + str(round(current_temperature + -273.15, 2)) + " Celsius</br> atmospheric pressure = " + str(current_pressure) + " hPa</br> humidity = " + str(current_humidiy) + "%</br> description = " + str(weather_description)
+        return "City = " + city_name + "</br>"+  " Temperature = " + str(round(current_temperature + -273.15, 2)) + " Celsius</br> Atmospheric Pressure = " + str(current_pressure) + " hPa</br> Humidity = " + str(current_humidiy) + "%</br> Description = " + str(weather_description)
 
     else:
         return " City Not Found "
