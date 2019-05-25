@@ -7,10 +7,18 @@ cnn = newspaper.build("https://lite.cnn.io", memoize_articles=False)
 
 @app.route("/")
 def index():
-    article = cnn.articles[0]
-    article.download()
-    article.parse()
-    article.nlp()
+    article = cnn.articles  
+    count = 0
+    print(len(cnn.articles))
+    for i in article:
+        file = open("article" + str(count), 'w')
+        article[count].download()
+        article[count].parse()
+        article[count].nlp()
+        file.write(cnn.articles[count].text)
+        file.close()
+        count += 1
+    
     return article.text
 
 if __name__ == "__main__":
