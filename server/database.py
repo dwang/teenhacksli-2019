@@ -5,7 +5,7 @@ import logging
 
 logging.basicConfig(filename="newsServer.log", level=logging.INFO)
 
-db = MongoClient("127.0.0.1", 5000, connect=False)['hacktcnj']
+db = MongoClient("35.236.226.124", 27017, connect=False)['teenhacksli']
 posts = db.posts
 
 
@@ -35,3 +35,5 @@ def clearDatabase():
 
 if __name__ == "__main__":
     clearDatabase()
+    addData("hi", "hello", "bye")
+    print(getData())
