@@ -1,4 +1,4 @@
-import newspaper, basicWeather, content_classification
+import newspaper, basicWeather, content_classification, datetime
 import re
 import string
 
@@ -6,10 +6,11 @@ cnn = newspaper.build("https://lite.cnn.io", memoize_articles=False)
 pattern = re.compile(r"[^a-zA-Z0-9-]")
 allowed_categories = ['Jobs & Education', 'Law & Government', 'News', 'Business & Industrial', 'People & Society', 'Finance', 'Health']
 count = 0
-
+today = datetime.datetime.now()
 index = open("index.html", "w")
 header = '<!doctype html><meta charset=utf-8><meta content="width=device-width,initial-scale=1,viewport-fit=cover" name=viewport><title>News</title><style>body{font-family:Arial,Helvetica,sans-serif;background-color:#fafafa}main{max-width:70ch;padding:2ch;margin:auto}.text{line-height:1.4}a{text-decoration:none;outline:0}</style><main>'
-index.write(header + "<h1>Weather</h1>")
+index.write(header)
+index.write("<h1>Weather</h1>")
 index.write("<p>" + basicWeather.getWeather() + "</p>")
 index.write("<h1>Latest News</h1>")
 
@@ -36,4 +37,5 @@ for article in cnn.articles:
     except Exception as e:
         print(e)
 
+index.write("<h3>Last Updated: " + today.strftime("%b %d %Y %I:%M:%S") + "</h3>")
 index.close()
