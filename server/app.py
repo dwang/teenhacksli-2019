@@ -52,7 +52,7 @@ for article in cnn.articles:
 
         news.write("<a href='articles/{}'>".format(file_name) + article_title + "</a><br><br>")
     except Exception as e:
-        print(e)
+        pass
 
 index.write("<h3>Last Updated: " + datetime.datetime.now().strftime("%b %d %Y %I:%M:%S") + "</h3></main></body></html>")
 index.close()
