@@ -4,7 +4,7 @@ api_key = "708ca3f25f4dfda3c791b09ef4f990aa"
 base_url = "http://api.openweathermap.org/data/2.5/weather?"
 
 # Give city name
-city_name = "Long Island"
+city_name = "Long Island, NY"
 
 # complete_url variable to store
 # complete url address
