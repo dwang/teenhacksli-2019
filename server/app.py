@@ -46,6 +46,7 @@ for article in cnn.articles:
     except Exception as e:
         print(e)
 
-news.write("<h3>Last Updated: " + today.strftime("%b %d %Y %I:%M:%S") + "</h3>")
+index.write("<h3>Last Updated: " + today.strftime("%b %d %Y %I:%M:%S") + "</h3>")
+index.close()
 news.write("</main></body></html>")
 news.close()

@@ -1,62 +1,62 @@
 <article>
   <header>
     <h1>First Aid Information</h1>
-  <a href = "www.redcross.org">  <h3>All info found through Red Cross</h3> </a>
   </header>
-  <p>
-    1.Before administering care to an ill or injured person, check the scene and the person. Size up the scene and form an initial impression.<br><br>
+  <h3>
+    1. Before administering care to an ill or injured person, check the scene and the person. Size up the scene and form an initial impression. </h3>
+    <h4>
+    Pause and looks at the scene and the person before responding. Answer the following questions:</h4>
     
-    Pause and looks at the scene and the person before responding. Answer the following questions:<br><br>
+   <p> - Is the scene safe to enter?<br>
     
-    - Is the scene safe to enter?<br><br>
+    - What happened?<br>
     
-    - What happened?<br><br>
+    - How many people are involved?<br>
     
-    - How many people are involved?<br><br>
+    - What is my initial impression about the nature of the person’s illness or injury? Does the person have any life-threatening conditions, such as severe, life-threatening bleeding?<br>
     
-    - What is my initial impression about the nature of the person’s illness or injury? Does the person have any life-threatening conditions, such as severe, life-threatening bleeding?<br><br>
+    - Is anyone else available to help?<br><br>
     
-    - Is anyone else available to help?<br><br><br>
+    <h3>2. If the Person is awake and Responsive and there is no severe life-threatening bleeding:</h3><br>
     
-    2.If the Person is awake and Responsive and there is no severe life-threatening bleeding:<br><br>
+    - Obtain consent: Tell the person your name, describes type and level of training, states what you thinks is wrong and what you plans to do, and asks permission to provide care.<br>
     
-    - Obtain consent: Tell the person your name, describes type and level of training, states what you thinks is wrong and what you plans to do, and asks permission to provide care.<br><br>
+    - Tell a bystander to get the AED and first aid kit: Point to a bystander and speak out loud.<br>
     
-    - Tell a bystander to get the AED and first aid kit: Point to a bystander and speak out loud.<br><br>
+    - Use appropriate PPE: Put on gloves, if available.<br>
     
-    - Use appropriate PPE: Put on gloves, if available.<br><br>
+    - Interview the person: Uses SAMPLE questions to gather more information about signs and symptoms, allergies, medications, pertinent medical history, last food or drink and events leading up to the incident.<br>
     
-    - Interview the person: Uses SAMPLE questions to gather more information about signs and symptoms, allergies, medications, pertinent medical history, last food or drink and events leading up to the incident.<br><br>
+    - Conduct a head-to-toe check: Check head and neck, shoulders, chest and abdomen, hips, legs and feet, arms and hands for signs of injury.<br>
     
-    - Conduct a head-to-toe check: Check head and neck, shoulders, chest and abdomen, hips, legs and feet, arms and hands for signs of injury.<br><br>
+    - Provide care consistent with knowledge and training according to the conditions you find.<br><br>
     
-    - Provide care consistent with knowledge and training according to the conditions you find.<br><br><br>
+   <h3> 3. If the Person Appears Unresponsive:</h3><br>
     
-    3.If the Person Appears Unresponsive:<br><br>
+    Shout to get the person’s attention, using the person’s name if it is known. If there is no response, tap the person’s shoulder (if the person is an adult or child) or the bottom of the person’s foot (if the person is an infant) and shout again, while checking for normal breathing. Check for Responsiveness and breathing for no more than 5-10 seconds.<br><br>
     
-    Shout to get the person’s attention, using the person’s name if it is known. If there is no response, tap the person’s shoulder (if the person is an adult or child) or the bottom of the person’s foot (if the person is an infant) and shout again, while checking for normal breathing. Check for Responsiveness and breathing for no more than 5-10 seconds.<br><br><br>
+    <h3>4. If the person is breathing:</h3><br>
     
-    4.If the person is breathing:<br><br>
+    - Send someone to call 911 or the designated emergency number and obtain an AED and first aid kit.<br>
     
-    - Send someone to call 911 or the designated emergency number and obtain an AED and first aid kit.<br><br>
+    - Proceed with gathering information from bystanders using the SAMPLE questions <br>
     
-    - Proceed with gathering information from bystanders using the SAMPLE questions <br><br>
+    - Conduct a head-to-toe check.<br>
     
-    - Conduct a head-to-toe check.<br><br>
+    - Roll the person onto his or her side into a recovery position if there are no obvious signs of injury.<br><br>
     
-    - Roll the person onto his or her side into a recovery position if there are no obvious signs of injury.<br><br><br>
+    <h3>5. If the person is NOT breathing:</h3><br>
     
-    5.If the person is NOT breathing:<br><br>
+    - Send someone to call 911 or the designated emergency number and obtain an AED and first aid kit.<br>
     
-    - Send someone to call 911 or the designated emergency number and obtain an AED and first aid kit.<br><br>
+    - Ensure that the person is face-up on a firm, flat surface such as the floor or ground.<br>
     
-    - Ensure that the person is face-up on a firm, flat surface such as the floor or ground.<br><br>
+    - Begin CPR (starting with compressions) or use an AED if one is immediately available, if you are trained in giving CPR and using an AED.<br>
     
-    - Begin CPR (starting with compressions) or use an AED if one is immediately available, if you are trained in giving CPR and using an AED.<br><br>
+    - Continue administering CPR until the person exhibits signs of life, such as breathing, an AED becomes available, or EMS or trained medical responders arrive on scene.<br>
     
-    - Continue administering CPR until the person exhibits signs of life, such as breathing, an AED becomes available, or EMS or trained medical responders arrive on scene.<br><br>
-    
-    Note: End CPR if the scene becomes unsafe or you cannot continue due to exhaustion.<br><br>
+    Note: End CPR if the scene becomes unsafe or you cannot continue due to exhaustion.<br>
     
     </p>
+      <a href = "http://www.redcross.org">  <h4>All info found through Red Cross</h4> </a>
 </article>
