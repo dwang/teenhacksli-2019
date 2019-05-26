@@ -2,6 +2,7 @@ articles/*
 app.html
 cloud_credentials.json
 index.html
+firstaid.html
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
