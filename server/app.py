@@ -48,11 +48,11 @@ for article in cnn.articles:
         file_name = pattern.sub('', article_title.replace(" ", "-")).lower() + ".html"
 
         with open("articles/" + file_name, 'w') as out:
-            out.write(header + "<h1>" + article_title + "</h1><br><p class='text'>" + article_text + "</p>")
+            out.write(header + "<h1>" + article_title + "</h1><br><p class='text'>" + article_text + "</p></main></body></html>")
 
         news.write("<a href='articles/{}'>".format(file_name) + article_title + "</a><br><br>")
     except Exception as e:
-        pass
+        print(e)
 
 index.write("<h3>Last Updated: " + datetime.datetime.now().strftime("%b %d %Y %I:%M:%S") + "</h3></main></body></html>")
 index.close()
