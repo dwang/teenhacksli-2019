@@ -18,7 +18,7 @@ for article in cnn.articles:
     try:
         article.download()
         article.parse()
-        
+
         article_title = article.html.split('<h2 style="margin-top:0px;">')[1].split('</h2>')[0]
         article_text = article.html.split('</div><div><p>')[1].split('</p></div></div>')[0]
 
