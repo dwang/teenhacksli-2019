@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+cd /home/dwang/teenhacksli-2019/server
 python3 /home/dwang/teenhacksli-2019/server/app.py
-rsync -a articles/ /var/www/html/articles/
-rsync index.html /var/www/html
+rsync -a /home/dwang/teenhacksli-2019/server/articles /var/www/html
+rsync /home/dwang/teenhacksli-2019/server/index.html /var/www/html

@@ -47,4 +47,5 @@ for i in range (0, len(indexes) - 2):
         index.write("<h2>" + indexes[i+1][0:(indexes[i+1].index("-")-1)] + "</h2>")
 
 index.write("<h3>Last Updated: " + today.strftime("%b %d %Y %I:%M:%S") + "</h3>")
+index.write("</main></body></html>")
 index.close()
