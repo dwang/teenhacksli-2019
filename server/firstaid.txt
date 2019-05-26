@@ -1,7 +1,7 @@
-<!doctype html><meta charset=utf-8><meta content="width=device-width,initial-scale=1,viewport-fit=cover" name=viewport><title>News</title><style>body{font-family:Arial,Helvetica,sans-serif;background-color:#fafafa}main{max-width:70ch;padding:2ch;margin:auto}.text{line-height:1.4}a{text-decoration:none;outline:0}</style><main>
 <article>
   <header>
     <h1>First Aid Information</h1>
+  <a href = "www.redcross.org">  <h3>All info found through Red Cross</h3> </a>
   </header>
   <p>
     1.Before administering care to an ill or injured person, check the scene and the person. Size up the scene and form an initial impression.<br><br>
@@ -59,6 +59,4 @@
     Note: End CPR if the scene becomes unsafe or you cannot continue due to exhaustion.<br><br>
     
     </p>
-    <a href = "http://www.redcross.org">  <h4>All info found through Red Cross</h4> </a>
-
 </article>
