@@ -5,7 +5,7 @@ from google.cloud import language
 
 
 def classify(text):
-    client = language.LanguageServiceClient()
+    client = language.LanguageServiceClient.from_service_account_json("cloud_credentials.json")
 
     while len(text.split(" ")) <= 20:
         text += " " + text
