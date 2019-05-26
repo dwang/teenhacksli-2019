@@ -9,7 +9,7 @@ cnn = newspaper.build("https://lite.cnn.io", memoize_articles=False)
 pattern = re.compile(r"[^a-zA-Z0-9-]")
 allowed_categories = ['Jobs & Education', 'Law & Government', 'News', 'Business & Industrial', 'People & Society', 'Finance', 'Health']
 
-header = '<!doctype html><meta charset=utf-8><meta content="width=device-width,initial-scale=1,viewport-fit=cover" name=viewport><title>MirrorDashboard</title><style>body{font-family:Arial,Helvetica,sans-serif;background-color:#fafafa}main{max-width:70ch;padding:2ch;margin:auto}.text{line-height:1.4}a{text-decoration:none;outline:0}</style></head><main><h1><a href="index.html">MirrorDashboard</a></h1><br>'
+header = '<!doctype html><meta charset=utf-8><meta content="width=device-width,initial-scale=1,viewport-fit=cover" name=viewport><title>MirrorDashboard</title><style>body{font-family:Arial,Helvetica,sans-serif;background-color:#fafafa}main{max-width:70ch;padding:2ch;margin:auto}.text{line-height:1.4}a{text-decoration:none;outline:0}</style></head><main><h1><a href="/index.html">MirrorDashboard</a></h1><br>'
 
 index = open("index.html", "w")
 index.write(header + '<h1><a href="weather.html">Weather</a></h1>')
