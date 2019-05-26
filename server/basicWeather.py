@@ -4,7 +4,7 @@ api_key = "708ca3f25f4dfda3c791b09ef4f990aa"
 base_url = "http://api.openweathermap.org/data/2.5/weather?"
 
 # Give city name
-city_name = "Long Island, NY"
+city_name = "Long Island"
 
 # complete_url variable to store
 # complete url address
@@ -24,7 +24,7 @@ def getWeather():
         current_humidiy = y["humidity"]
         z = x["weather"]
         weather_description = z[0]["description"]
-        return "City = " + city_name + "</br>"+  " Temperature = " + str(round(current_temperature + -273.15, 2)) + " Celsius</br> Atmospheric Pressure = " + str(current_pressure) + " hPa</br> Humidity = " + str(current_humidiy) + "%</br> Description = " + str(weather_description)
+        return "City = " + city_name + ", NY" + "</br>"+  " Temperature = " + str(round(current_temperature + -273.15, 2)) + " Celsius</br> Atmospheric Pressure = " + str(current_pressure) + " hPa</br> Humidity = " + str(current_humidiy) + "%</br> Description = " + str(weather_description)
 
     else:
         return " City Not Found "
