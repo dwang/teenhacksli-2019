@@ -7,6 +7,7 @@ import string
 
 cnn = newspaper.build("https://lite.cnn.io", memoize_articles=False)
 pattern = re.compile(r"[^a-zA-Z0-9-]")
+allowed_categories = ['Jobs & Education', 'Law & Government', 'News', 'Business & Industrial', 'People & Society', 'Finance', 'Health']
 
 header = '<!doctype html><meta charset=utf-8><meta content="width=device-width,initial-scale=1,viewport-fit=cover" name=viewport><title>MirrorDashboard</title><style>body{font-family:Arial,Helvetica,sans-serif;background-color:#fafafa}main{max-width:70ch;padding:2ch;margin:auto}.text{line-height:1.4}a{text-decoration:none;outline:0}</style></head><main><h1><a href="index.html">MirrorDashboard</a></h1><br>'
 
@@ -36,12 +37,12 @@ for article in cnn.articles:
         article_title = article.html.split('<h2 style="margin-top:0px;">')[1].split('</h2>')[0]
         article_text = article.html.split('</div><div><p>')[1].split('</p></div></div>')[0]
 
-        print("[{} / {}] {}".format(count, len(cnn.articles), article_title))
+        print("[{} / {}] {}".format(count, len(cnn.articles) - 3, article_title))
 
         count += 1
 
         category = list(content_classification.classify(article_text).keys())[0].split("/")[1]
-        if category not in ['Jobs & Education', 'Law & Government', 'News', 'Business & Industrial', 'People & Society', 'Finance', 'Health']:
+        if category not in allowed_categories:
             continue
 
         file_name = pattern.sub('', article_title.replace(" ", "-")).lower() + ".html"
