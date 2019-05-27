@@ -1,2 +1,3 @@
 # teenhacksli-2019
-# eyy
+# Mirror Dashboard
+# I am just writing this cause the event is over
